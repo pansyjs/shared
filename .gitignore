@@ -4,6 +4,8 @@
 .temp
 *.log
 dist
+es
+lib
 index.json
 indexes.json
 node_modules
