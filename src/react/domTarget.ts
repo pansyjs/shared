@@ -1,5 +1,5 @@
 import type { MutableRefObject } from 'react';
-import { isClient, isFunction } from '@/utils/is';
+import { isBrowser, isFunction } from '@/utils/is';
 
 type TargetValue<T> = T | undefined | null;
 
@@ -11,7 +11,7 @@ export type BasicTarget<T extends TargetType = Element> =
   | MutableRefObject<TargetValue<T>>;
 
 export function getTargetElement<T extends TargetType>(target: BasicTarget<T>, defaultElement?: T) {
-  if (!isClient) {
+  if (!isBrowser) {
     return undefined;
   }
 
