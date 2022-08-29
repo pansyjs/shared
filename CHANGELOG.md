@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/pansyjs/shared/compare/v1.2.0...v1.3.0) (2022-08-29)
+
+### Features
+
+- **react:** add depsAreSame fun ([0fca27b](https://github.com/pansyjs/shared/commit/0fca27b59423b7a2f8f7051df8d0843b9f59d43d))
+- **react:** export depsAreSame ([55949d7](https://github.com/pansyjs/shared/commit/55949d79713c1f5263a0fbe87f612c588298b124))
+- **utils:** add isBrowser ([ab6e2da](https://github.com/pansyjs/shared/commit/ab6e2daffacfbfd0f4ae4c8574ba8c7aef2d5576))
+- **utils:** add isUrl fun ([a3884e0](https://github.com/pansyjs/shared/commit/a3884e007ae9cad55fb55f9e3f8210e14c0a7e4a))
+
 # [1.2.0](https://github.com/pansyjs/shared/compare/v1.1.0...v1.2.0) (2022-08-25)
 
 ### Features
