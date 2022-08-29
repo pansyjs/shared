@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/pansyjs/shared/compare/v1.3.0...v1.3.1) (2022-08-29)
+
+### Bug Fixes
+
+- 修复路径引用错误 ([97bc75c](https://github.com/pansyjs/shared/commit/97bc75ce933f778341817020b5299bb9c15a1e8f))
+
 # [1.3.0](https://github.com/pansyjs/shared/compare/v1.2.0...v1.3.0) (2022-08-29)
 
 ### Features
