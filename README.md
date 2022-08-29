@@ -8,13 +8,13 @@
 
 ```sh
 # npm
-npm i vtils
+npm i @pansy/shared
 
 # yarn
-yarn add vtils
+yarn add @pansy/shared
 
 # pnpm
-pnpm add vtils
+pnpm add @pansy/shared
 ```
 
 ## 使用
