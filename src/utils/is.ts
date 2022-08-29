@@ -1,4 +1,11 @@
-export const isClient = typeof window !== 'undefined';
+/**
+ * 判断当前是否是浏览器环境
+ */
+export const isBrowser = !!(
+  typeof window !== 'undefined' &&
+  window.document &&
+  window.document.createElement
+);
 
 /** 判断值是否为一个Boolean */
 export const isBoolean = (val: any): val is boolean => typeof val === 'boolean';
@@ -18,7 +25,7 @@ export const isWindow = (val: any): val is Window =>
 
 /** 判断是否是IOS系统 */
 export const isIOS =
-  isClient && window?.navigator?.userAgent && /iP(ad|hone|od)/.test(window.navigator.userAgent);
+  isBrowser && window?.navigator?.userAgent && /iP(ad|hone|od)/.test(window.navigator.userAgent);
 
 const protocolAndDomainRE = /^(?:\w+:)?\/\/(\S+)$/;
 
