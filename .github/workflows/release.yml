@@ -36,6 +36,9 @@ jobs:
           version: latest
           run_install: true
 
+      - name: Ts Check
+        run: pnpm tsc:check
+
       - name: Build
         run: pnpm build
 
