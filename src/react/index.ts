@@ -1,2 +1,3 @@
 export * from './domTarget';
-export * from './depsAreSame';
+export { depsAreSame } from './depsAreSame';
+export { createDeepCompareEffect } from './createDeepCompareEffect';
