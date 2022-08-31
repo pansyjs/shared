@@ -1,3 +1,9 @@
+# [1.4.0](https://github.com/pansyjs/shared/compare/v1.3.1...v1.4.0) (2022-08-31)
+
+### Features
+
+- **react:** add createDeepCompareEffect ([a49c48e](https://github.com/pansyjs/shared/commit/a49c48ebd06a1b1f44cba98af9ca924ed26d30c3))
+
 ## [1.3.1](https://github.com/pansyjs/shared/compare/v1.3.0...v1.3.1) (2022-08-29)
 
 ### Bug Fixes
