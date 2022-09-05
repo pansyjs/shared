@@ -5,3 +5,5 @@ export * from './rect';
 export const noop = () => {};
 export const now = () => Date.now();
 export const timestamp = () => +Date.now();
+
+export { classNames } from './classnames';
