@@ -6,4 +6,5 @@ export const noop = () => {};
 export const now = () => Date.now();
 export const timestamp = () => +Date.now();
 
-export { classNames } from './classnames';
+export { classNames } from './classNames';
+export { KeyCode } from './KeyCode';
