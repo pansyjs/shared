@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/pansyjs/shared/compare/v1.4.0...v1.5.0) (2022-09-06)
+
+### Features
+
+- add classNames fun ([e5295f7](https://github.com/pansyjs/shared/commit/e5295f751a0c4c18f548d94968fa4f0b1ee5e573))
+- add KeyCode ([27205dd](https://github.com/pansyjs/shared/commit/27205dd855da05d1ab797aa8653868ade83b9d73))
+- **types:** add type ([4de328a](https://github.com/pansyjs/shared/commit/4de328a4363bdc3a87fe6e5cee2adf7f1088c819))
+- **utils:** add isDate、isNaN、isUndefined、isNull、isArray ([806dd60](https://github.com/pansyjs/shared/commit/806dd60a3a45a39a5ff39d6529817e8940dee45c))
+
 # [1.4.0](https://github.com/pansyjs/shared/compare/v1.3.1...v1.4.0) (2022-08-31)
 
 ### Features
