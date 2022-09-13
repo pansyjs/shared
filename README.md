@@ -4,6 +4,8 @@
 一个面向业务的 JavaScript/TypeScript 实用程序库。
 </div>
 
+[![version](https://badgen.net/npm/v/@pansy/shared)](https://www.npmjs.com/package/@pansy/shared) [![GitHub Actions status](https://github.com/pansyjs/shared/workflows/CI/badge.svg)](https://github.com/pansyjs/shared)
+
 ## 🏗 安装
 
 ```sh
