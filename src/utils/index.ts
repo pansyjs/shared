@@ -6,5 +6,6 @@ export const noop = () => {};
 export const now = () => Date.now();
 export const timestamp = () => +Date.now();
 
+export { nanoid } from './nanoid';
 export { classNames } from './classNames';
 export { KeyCode } from './KeyCode';
