@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/pansyjs/shared/compare/v1.5.0...v1.6.0) (2022-12-04)
+
+### Features
+
+- **types:** add utils ([8a6663a](https://github.com/pansyjs/shared/commit/8a6663aa6ab2ca12ed29d4571365b7bfba8d3bc3))
+- **utils:** add nanoid ([65a2d01](https://github.com/pansyjs/shared/commit/65a2d0142db6551afed16e8a7d1a9374833c831f))
+
 # [1.5.0](https://github.com/pansyjs/shared/compare/v1.4.0...v1.5.0) (2022-09-06)
 
 ### Features
