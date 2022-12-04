@@ -1,4 +1,4 @@
-import { classNames } from './classNames';
+import { classNames } from './';
 
 describe('classNames', function () {
   it('keeps object keys with truthy values', function () {
