@@ -1,3 +1,9 @@
+# [1.7.0](https://github.com/pansyjs/shared/compare/v1.6.0...v1.7.0) (2022-12-09)
+
+### Features
+
+- add numberFormat utils ([d9e647b](https://github.com/pansyjs/shared/commit/d9e647beea98903cfc9c571d1cdcd343230c1ec6))
+
 # [1.6.0](https://github.com/pansyjs/shared/compare/v1.5.0...v1.6.0) (2022-12-04)
 
 ### Features
