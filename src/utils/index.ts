@@ -8,4 +8,5 @@ export const timestamp = () => +Date.now();
 
 export { nanoid } from './nanoid';
 export { classNames } from './classNames';
+export { numberFormat } from './numberFormat';
 export { KeyCode } from './KeyCode';
