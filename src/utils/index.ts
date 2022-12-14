@@ -10,3 +10,4 @@ export { nanoid } from './nanoid';
 export { classNames } from './classNames';
 export { numberFormat } from './numberFormat';
 export { KeyCode } from './KeyCode';
+export { isUrl } from './isUrl';
