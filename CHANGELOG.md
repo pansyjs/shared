@@ -1,3 +1,9 @@
+# [1.8.0](https://github.com/pansyjs/shared/compare/v1.7.0...v1.8.0) (2022-12-14)
+
+### Features
+
+- 提取 isUrl 为单独文件 ([c8e2b37](https://github.com/pansyjs/shared/commit/c8e2b370eded92fbe71cc31148eab3b33aa47329))
+
 # [1.7.0](https://github.com/pansyjs/shared/compare/v1.6.0...v1.7.0) (2022-12-09)
 
 ### Features
