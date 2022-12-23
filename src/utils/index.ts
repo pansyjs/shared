@@ -1,5 +1,6 @@
 export * from './is';
 export * from './rect';
+export { isDev } from './isDev';
 
 /** 空方法 */
 export const noop = () => {};
