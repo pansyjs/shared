@@ -1,4 +1,4 @@
-import { isString } from '../is';
+import { isString } from '../isString';
 
 const protocolAndDomainRE = /^(?:\w+:)?\/\/(\S+)$/;
 
@@ -15,12 +15,12 @@ const nonLocalhostDomainRE = /^[^\s\.]+\.\S{2,}$/;
  * isUrl('https://www.baidu.com') // => true
  * ```
  */
-export function isUrl(value: string) {
-  if (!isString(value)) {
+export function isUrl(path: string) {
+  if (!path || !isString(path)) {
     return false;
   }
 
-  const match = value.match(protocolAndDomainRE);
+  const match = path.match(protocolAndDomainRE);
   if (!match) {
     return false;
   }
