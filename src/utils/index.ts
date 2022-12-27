@@ -15,8 +15,8 @@ export { isWindow } from './isWindow';
 export { isBoolean } from './isBoolean';
 export { isFunction } from './isFunction';
 
-/** 空方法 */
-export const noop = () => {};
+export { noop } from './noop';
+export * as warning from './warning';
 export const now = () => Date.now();
 export const timestamp = () => +Date.now();
 
