@@ -1,5 +1,7 @@
+import { isFunction } from '../utils/isFunction';
+import { isBrowser } from '../utils/isBrowser';
+
 import type { MutableRefObject } from 'react';
-import { isBrowser, isFunction } from '@/utils/is';
 
 type TargetValue<T> = T | undefined | null;
 
