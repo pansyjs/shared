@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/pansyjs/shared/compare/v1.8.0...v1.9.0) (2022-12-27)
+
+### Bug Fixes
+
+- 修复引用报错 ([67d1913](https://github.com/pansyjs/shared/commit/67d191353bb7262417dcf270b45fd8be665946f7))
+
+### Features
+
+- add isDev function ([162ac97](https://github.com/pansyjs/shared/commit/162ac972e22ff8a72827883d403f4930b4d4e0c0))
+- **utils:** add warning utils ([7fe296f](https://github.com/pansyjs/shared/commit/7fe296f54e53f551142d6de3bd211f8339f0363c))
+- 目录优化 ([d468582](https://github.com/pansyjs/shared/commit/d468582c877455229cb3155b876289f0c2d0f30b))
+
 # [1.8.0](https://github.com/pansyjs/shared/compare/v1.7.0...v1.8.0) (2022-12-14)
 
 ### Features
