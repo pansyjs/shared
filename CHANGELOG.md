@@ -1,3 +1,11 @@
+# [1.10.0](https://github.com/pansyjs/shared/compare/v1.9.0...v1.10.0) (2023-03-06)
+
+### Features
+
+- **types:** add NodeJSTimeout、NodeJSTimer ([e59bd02](https://github.com/pansyjs/shared/commit/e59bd02ce9b3e1c45f4fabd8c24abf411ccd1403))
+- **utils:** add isEqual ([d2a2da4](https://github.com/pansyjs/shared/commit/d2a2da44e008eb51f40e983dd35e0379c1dadfae))
+- **utils:** add omit function ([2ff8b7f](https://github.com/pansyjs/shared/commit/2ff8b7f3fa045ca9f144dffa718af7acdff9fa7d))
+
 # [1.9.0](https://github.com/pansyjs/shared/compare/v1.8.0...v1.9.0) (2022-12-27)
 
 ### Bug Fixes
