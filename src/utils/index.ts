@@ -15,8 +15,9 @@ export { isWindow } from './isWindow';
 export { isBoolean } from './isBoolean';
 export { isFunction } from './isFunction';
 export { omit } from './omit';
-
+export { isEqual } from './isEqual';
 export { noop } from './noop';
+
 export * as warning from './warning';
 export const now = () => Date.now();
 export const timestamp = () => +Date.now();
