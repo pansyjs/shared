@@ -14,6 +14,7 @@ export { isArray } from './isArray';
 export { isWindow } from './isWindow';
 export { isBoolean } from './isBoolean';
 export { isFunction } from './isFunction';
+export { omit } from './omit';
 
 export { noop } from './noop';
 export * as warning from './warning';
