@@ -1,5 +1,8 @@
 export type Fn = () => void;
 
+export type NodeJSTimeout = ReturnType<typeof setTimeout>;
+export type NodeJSTimer = ReturnType<typeof setInterval>;
+
 export type { Brand } from './Brand';
 export type { LiteralUnion } from './LiteralUnion';
 export * from './Array';
