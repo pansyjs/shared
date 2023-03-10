@@ -1,4 +1,4 @@
-import type { DependencyList } from 'react';
+import React from 'react';
 
 /**
  * 判断依赖是否为同一个值
@@ -6,7 +6,7 @@ import type { DependencyList } from 'react';
  * @param deps
  * @returns
  */
-export function depsAreSame(oldDeps: DependencyList, deps: DependencyList) {
+export function depsAreSame(oldDeps: React.DependencyList, deps: React.DependencyList) {
   if (oldDeps === deps) return true;
 
   for (let i = 0; i < oldDeps.length; i++) {
