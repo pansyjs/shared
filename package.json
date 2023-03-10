@@ -38,8 +38,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "react-is": "^18.2.0",
-    "lodash": "^4.17.21"
+    "react-is": "^18.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "17.4.4",

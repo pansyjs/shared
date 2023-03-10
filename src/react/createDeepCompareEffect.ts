@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import type { DependencyList, useEffect, useLayoutEffect } from 'react';
-import isEqual from 'lodash/isEqual';
+import { isEqual } from '../utils/isEqual';
 
 type EffectHookType = typeof useEffect | typeof useLayoutEffect;
 type CreateUpdateEffect = (hook: EffectHookType) => EffectHookType;
