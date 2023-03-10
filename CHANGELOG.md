@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/pansyjs/shared/compare/v1.10.0...v1.11.0) (2023-03-10)
+
+### Features
+
+- **react:** add toArray ([5360d77](https://github.com/pansyjs/shared/commit/5360d7709b4b2dd92e26feb20d6631e65ac0ade5))
+- 代码优化 ([21d30ab](https://github.com/pansyjs/shared/commit/21d30ab9d775160c2eb302786cb0537545087dba))
+
 # [1.10.0](https://github.com/pansyjs/shared/compare/v1.9.0...v1.10.0) (2023-03-06)
 
 ### Features
