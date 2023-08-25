@@ -1,5 +1,4 @@
 export * from './rect';
-export { isDev } from './isDev';
 export { isIOS } from './isIOS';
 export { isBrowser } from './isBrowser';
 export { isUrl } from './isUrl';
