@@ -1,3 +1,9 @@
+# [1.12.0](https://github.com/pansyjs/shared/compare/v1.11.0...v1.12.0) (2023-08-25)
+
+### Features
+
+- remove isDev utils ([9bdd9ab](https://github.com/pansyjs/shared/commit/9bdd9ab7446dd48b022e704dc73cfb5f1e66c534))
+
 # [1.11.0](https://github.com/pansyjs/shared/compare/v1.10.0...v1.11.0) (2023-03-10)
 
 ### Features
