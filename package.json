@@ -17,6 +17,11 @@
       "import": "./react/index.js",
       "types": "./react/index.d.ts"
     },
+    "./tree": {
+      "require": "./_cjs/tree/index.js",
+      "import": "./tree/index.js",
+      "types": "./tree/index.d.ts"
+    },
     "./types": "./types/index.d.ts",
     "./utils": {
       "require": "./_cjs/utils/index.js",
