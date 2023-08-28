@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/pansyjs/shared/compare/v1.12.0...v1.13.0) (2023-08-28)
+
+### Features
+
+- add toTree util ([d3dd00c](https://github.com/pansyjs/shared/commit/d3dd00cbfd6f941acce1ad0bfddebf4009574064))
+- **tree:** export tree-lodash utils ([468bd2b](https://github.com/pansyjs/shared/commit/468bd2b7fd545d5a6bb530ff86e6549370350ca9))
+
 # [1.12.0](https://github.com/pansyjs/shared/compare/v1.11.0...v1.12.0) (2023-08-25)
 
 ### Features
