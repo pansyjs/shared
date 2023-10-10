@@ -43,7 +43,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "react-is": "^18.2.0",
     "tree-lodash": "^0.3.1"
   },
   "devDependencies": {
@@ -55,7 +54,6 @@
     "@types/node": "^18.14.6",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
-    "@types/react-is": "^17.0.3",
     "@umijs/fabric": "^3.0.0",
     "@umijs/utils": "^4.0.55",
     "husky": "^8.0.3",
