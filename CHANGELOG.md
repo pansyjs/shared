@@ -1,3 +1,9 @@
+## [1.13.1](https://github.com/pansyjs/shared/compare/v1.13.0...v1.13.1) (2023-10-10)
+
+### Performance Improvements
+
+- **react:** remove toArray ([f115cd5](https://github.com/pansyjs/shared/commit/f115cd5175a8b5cae5cd9a53ded25a8fff46bcef))
+
 # [1.13.0](https://github.com/pansyjs/shared/compare/v1.12.0...v1.13.0) (2023-08-28)
 
 ### Features
