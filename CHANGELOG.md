@@ -1,3 +1,9 @@
+# [1.14.0](https://github.com/pansyjs/shared/compare/v1.13.1...v1.14.0) (2023-10-17)
+
+### Features
+
+- **utils:** add uuid ([10a14bf](https://github.com/pansyjs/shared/commit/10a14bf7b4984a3c40f3fc319928b0444caf47e9))
+
 ## [1.13.1](https://github.com/pansyjs/shared/compare/v1.13.0...v1.13.1) (2023-10-10)
 
 ### Performance Improvements
