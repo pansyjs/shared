@@ -16,7 +16,7 @@ export { isFunction } from './isFunction';
 export { omit } from './omit';
 export { isEqual } from './isEqual';
 export { noop } from './noop';
-
+export { uuid } from './uuid';
 export * as warning from './warning';
 export const now = () => Date.now();
 export const timestamp = () => +Date.now();
