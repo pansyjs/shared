@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@pansy/classnames':
+    specifier: ^1.0.1
+    version: 1.0.1
   tree-lodash:
     specifier: ^0.3.1
     version: 0.3.1
@@ -1984,6 +1987,10 @@ packages:
     dependencies:
       '@octokit/openapi-types': 13.4.0
     dev: true
+
+  /@pansy/classnames@1.0.1:
+    resolution: {integrity: sha512-L+8EGUhuqlZhWz1ojVnTcRk8U958QhHvzCy3KHvmAGm+cRiHaX/CyJd5mEEGSKZhAOa/EpPjqTjafPX6TZNvtw==}
+    dev: false
 
   /@parcel/css-darwin-arm64@1.9.0:
     resolution: {integrity: sha512-f/guZseS2tNKtKw94LgpNTItZqdVA0mnznqPsmQaR5lSB+cM3IPrSV8cgOOpAS7Vwo9ggxuJartToxBBN+dWSw==}

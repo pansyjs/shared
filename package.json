@@ -43,6 +43,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "@pansy/classnames": "^1.0.1",
     "tree-lodash": "^0.3.1"
   },
   "devDependencies": {

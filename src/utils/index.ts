@@ -1,3 +1,4 @@
+export { default as classNames } from '@pansy/classnames';
 export * from './rect';
 export { isIOS } from './isIOS';
 export { isBrowser } from './isBrowser';
@@ -23,6 +24,5 @@ export const timestamp = () => +Date.now();
 
 export { getType } from './getType';
 export { nanoid } from './nanoid';
-export { classNames } from './classNames';
 export { numberFormat } from './numberFormat';
 export { KeyCode } from './KeyCode';
