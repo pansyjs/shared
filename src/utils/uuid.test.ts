@@ -2,7 +2,7 @@ import { uuid } from './uuid';
 
 describe(uuid.name, () => {
   test('返回值为字符串', () => {
-    expect(typeof uuid()).toBe('string');
+    expect(uuid()).toBeTypeOf('string');
   });
 
   test('多次调用返回值不同', () => {
