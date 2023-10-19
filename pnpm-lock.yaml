@@ -8,6 +8,9 @@ dependencies:
   '@pansy/classnames':
     specifier: ^1.0.1
     version: 1.0.1
+  '@pansy/scrollbar-width':
+    specifier: ^1.0.0
+    version: 1.0.0
   tree-lodash:
     specifier: ^0.3.1
     version: 0.3.1
@@ -1990,6 +1993,10 @@ packages:
 
   /@pansy/classnames@1.0.1:
     resolution: {integrity: sha512-L+8EGUhuqlZhWz1ojVnTcRk8U958QhHvzCy3KHvmAGm+cRiHaX/CyJd5mEEGSKZhAOa/EpPjqTjafPX6TZNvtw==}
+    dev: false
+
+  /@pansy/scrollbar-width@1.0.0:
+    resolution: {integrity: sha512-uewJ/MstUMieEa4dS4CQkLVTOhIReKnmeNJAIlW95I7L//SipI7uh2/O0lwKNPYLumNIcmUlRz7j8p0hEGsgNQ==}
     dev: false
 
   /@parcel/css-darwin-arm64@1.9.0:

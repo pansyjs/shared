@@ -1,4 +1,5 @@
 export { default as classNames } from '@pansy/classnames';
+export { scrollbarWidth } from '@pansy/scrollbar-width';
 export * from './rect';
 export { isIOS } from './isIOS';
 export { isBrowser } from './isBrowser';
