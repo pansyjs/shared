@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/pansyjs/shared/compare/v1.14.0...v1.15.0) (2023-11-06)
+
+### Features
+
+- used @pansy/classnames ([3320cf9](https://github.com/pansyjs/shared/commit/3320cf97aa527dacfb911f441def8964cf1deb85))
+- **utils:** add scrollbarWidth utils ([40235d1](https://github.com/pansyjs/shared/commit/40235d119d1dfe8631adc634665ced28950236f4))
+
 # [1.14.0](https://github.com/pansyjs/shared/compare/v1.13.1...v1.14.0) (2023-10-17)
 
 ### Features
