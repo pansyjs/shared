@@ -1,4 +1,4 @@
-import type { LiteralUnion } from '../types/LiteralUnion';
+import type { LiteralUnion } from 'type-fest';
 
 export type GetTypeReturn = LiteralUnion<
   | 'Undefined'
