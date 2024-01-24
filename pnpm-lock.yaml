@@ -14,6 +14,9 @@ dependencies:
   tree-lodash:
     specifier: ^0.3.1
     version: 0.3.1
+  type-fest:
+    specifier: ^4.9.0
+    version: 4.10.0
 
 devDependencies:
   '@commitlint/cli':
@@ -66,7 +69,7 @@ devDependencies:
     version: 18.2.0(react@18.2.0)
   redbud:
     specifier: 1.6.0
-    version: 1.6.0(@types/node@18.14.6)(webpack@5.86.0)
+    version: 1.6.0(@types/node@18.14.6)(type-fest@4.10.0)(webpack@5.86.0)
   semantic-release:
     specifier: ^23.0.0
     version: 23.0.0(typescript@5.3.3)
@@ -2284,7 +2287,7 @@ packages:
       '@parcel/css-win32-x64-msvc': 1.9.0
     dev: true
 
-  /@pmmmwh/react-refresh-webpack-plugin@0.5.7(react-refresh@0.14.0)(webpack@5.86.0):
+  /@pmmmwh/react-refresh-webpack-plugin@0.5.7(react-refresh@0.14.0)(type-fest@4.10.0)(webpack@5.86.0):
     resolution: {integrity: sha512-bcKCAzF0DV2IIROp9ZHkRJa6O4jy7NlnHdWL3GmcUxYWNjLXkK5kfELELwEfSP5hXPfVL/qOGMAROuMQb9GG8Q==}
     engines: {node: '>= 10.13'}
     peerDependencies:
@@ -2320,6 +2323,7 @@ packages:
       react-refresh: 0.14.0
       schema-utils: 3.1.1
       source-map: 0.7.4
+      type-fest: 4.10.0
       webpack: 5.86.0
     dev: true
 
@@ -3141,12 +3145,12 @@ packages:
       - supports-color
     dev: true
 
-  /@umijs/bundler-webpack@4.0.17(typescript@4.8.4)(webpack@5.86.0):
+  /@umijs/bundler-webpack@4.0.17(type-fest@4.10.0)(typescript@4.8.4)(webpack@5.86.0):
     resolution: {integrity: sha512-GN54ZMBI6FU3MVb+XWfoPL5rl0gUZhK7viQMEsufLfgcegtKWRHjOxeKvGfdyB9xzbKv0DIo+kbSj3W9GsghyQ==}
     hasBin: true
     dependencies:
       '@parcel/css': 1.9.0
-      '@pmmmwh/react-refresh-webpack-plugin': 0.5.7(react-refresh@0.14.0)(webpack@5.86.0)
+      '@pmmmwh/react-refresh-webpack-plugin': 0.5.7(react-refresh@0.14.0)(type-fest@4.10.0)(webpack@5.86.0)
       '@svgr/core': 6.2.1
       '@svgr/plugin-jsx': 6.3.1(@svgr/core@6.2.1)
       '@svgr/plugin-svgo': 6.3.1(@svgr/core@6.2.1)
@@ -8818,14 +8822,14 @@ packages:
     engines: {node: '>= 12.13.0'}
     dev: true
 
-  /redbud@1.6.0(@types/node@18.14.6)(webpack@5.86.0):
+  /redbud@1.6.0(@types/node@18.14.6)(type-fest@4.10.0)(webpack@5.86.0):
     resolution: {integrity: sha512-M2LMG5sYH9/qG585trfcH96WPbxa7tgYYkxF1bJ5KtC1bEUW1pay1N+CG7NDbabfNnmhQ0rvuUkqiHgo+WeZjw==}
     hasBin: true
     dependencies:
       '@microsoft/api-extractor': 7.34.3(@types/node@18.14.6)
       '@umijs/babel-preset-umi': 4.0.17
       '@umijs/bundler-utils': 4.0.17
-      '@umijs/bundler-webpack': 4.0.17(typescript@4.8.4)(webpack@5.86.0)
+      '@umijs/bundler-webpack': 4.0.17(type-fest@4.10.0)(typescript@4.8.4)(webpack@5.86.0)
       '@umijs/core': 4.0.17
       '@umijs/utils': 4.0.55
       '@vercel/ncc': 0.33.3
@@ -10067,7 +10071,6 @@ packages:
   /type-fest@4.10.0:
     resolution: {integrity: sha512-NPaKJsb4wyJ16qc8zBQrWswLKv/YirgBFykvUQ1Iajt2wd+twC8E4hFXdlIXqiMl6kWA0zY8tUJ9ELVAdu5h7w==}
     engines: {node: '>=16'}
-    dev: true
 
   /typedarray-to-buffer@3.1.5:
     resolution: {integrity: sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==}
