@@ -1,15 +1,18 @@
 module.exports = {
-  branches: ['+([0-9])?(.{+([0-9]),x}).x', 'main'],
+  branches: ['master'],
   plugins: [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
-    "@semantic-release/github",
-    ['@semantic-release/npm', {
-      pkgRoot: './lib'
-    }],
+    '@semantic-release/commit-analyzer',
+    '@semantic-release/release-notes-generator',
     [
-      "@semantic-release/git",
+      '@semantic-release/changelog',
+      {
+        changelogFile: 'CHANGELOG.md'
+      }
+    ],
+    '@semantic-release/npm',
+    '@semantic-release/github',
+    [
+      '@semantic-release/git',
       {
         assets: ['CHANGELOG.md', 'package.json'],
         message:
