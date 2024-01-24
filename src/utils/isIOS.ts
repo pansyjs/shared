@@ -1,4 +1,4 @@
-import { isBrowser } from '../isBrowser';
+import { isBrowser } from './isBrowser';
 
 /** 判断是否是IOS系统 */
 export const isIOS =

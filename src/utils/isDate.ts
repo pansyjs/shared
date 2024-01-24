@@ -1,4 +1,4 @@
-import { getType } from '../getType';
+import { getType } from './getType';
 
 /**
  * 检查 `value` 是否是一个日期。

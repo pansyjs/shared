@@ -1,4 +1,4 @@
-import { nanoid } from './';
+import { nanoid } from './nanoid';
 
 describe('nanoid', function () {
   it('should be defined', () => {
