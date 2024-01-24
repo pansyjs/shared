@@ -1,3 +1,13 @@
+# [1.16.0](https://github.com/pansyjs/shared/compare/v1.15.0...v1.16.0) (2024-01-24)
+
+### Bug Fixes
+
+- 修复类型报错 ([4e416fa](https://github.com/pansyjs/shared/commit/4e416faa997c54639ca138a53ce53a0bcda9cce1))
+
+### Features
+
+- **types:** add type-fest types ([f409fb3](https://github.com/pansyjs/shared/commit/f409fb3b277dff3bb153d2f6e53db19a8c1fd7bb))
+
 # [1.15.0](https://github.com/pansyjs/shared/compare/v1.14.0...v1.15.0) (2023-11-06)
 
 ### Features
