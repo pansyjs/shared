@@ -1,4 +1,4 @@
-name: Release
+name: 🎉 Release new version
 
 env:
   NODE_OPTIONS: --max-old-space-size=6144
@@ -8,12 +8,15 @@ on:
 
 jobs:
   build-and-release:
+    name: 🔨 Build + 🚀 Publish
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout'
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 10
+          clean: false
 
       - name: 'Setup Node.js'
         uses: actions/setup-node@v4
