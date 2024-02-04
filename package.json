@@ -35,7 +35,8 @@
     "test": "vitest",
     "prepare": "husky install",
     "tsc:check": "tsc --noEmit",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "release": "semantic-release"
   },
   "keywords": [
     "pansy",
