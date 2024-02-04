@@ -1,7 +1,7 @@
 export { default as classNames } from '@pansy/classnames';
 export { scrollbarWidth } from '@pansy/scrollbar-width';
 export * from './rect';
-export { isIOS } from './isIOS';
+export * from './platform';
 export { isBrowser } from './isBrowser';
 export { isUrl } from './isUrl';
 export { isNil } from './isNil';
